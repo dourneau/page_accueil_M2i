@@ -3,11 +3,29 @@
        background-color: rgb(235, 235, 235);
     }
 
-     h1.titre {
-        color: green;
+    
 
+     div.Parent1 {
+      margin: 0;
+      height: auto;
+      width: 100%;
+      position: relative;
+      top: 5px;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
      }
+     
+     div.Parent1 > p {
+      color: red;
+      margin-bottom: 20px;
+      font-size: 3.0em;
+   }
 
+
+/*
      div.Parent1 {
         margin: 1px;
         height: 110px;
@@ -32,6 +50,8 @@
          top: 0px;
          left: 0px;
      }
+*/
+
 
      div.Parent2 {
       margin: 0;
@@ -80,6 +100,8 @@
    }
    */
 
+
+   
 
    div.Parent3 {
       margin: 0;
