@@ -1,5 +1,7 @@
 
-    
+    body {
+       background-color: rgb(235, 235, 235);
+    }
 
      h1.titre {
         color: green;
@@ -32,63 +34,69 @@
      }
 
      div.Parent2 {
-      margin: 1px;
-      height: 200px;
-      width: 1400px;
-      border: 1px solid black; 
+      margin: 0;
+      height: auto;
+      width: 100%;
+      position: relative;
+      top: 120px;
+
       display: flex;
       flex-direction: row;
-      /*justify-content: space-around;
-      flex-wrap:nowrap;*/
-
-      position: relative;
-      background: white;
-      top: 60px;
-      left: 30px;
+      justify-content: space-around;
+      align-items: center;
    }
 
+   div.Enfant2 > h3 {
+      margin-bottom: 20px;
+      font-size: 1.6em;
+   }
 
-     div.Enfant2 :nth-child(1){
-      background-color: red;
-      width: 250px;
-      height: 200px;
-      border: 1px solid black;
-      top: 0px;
-      left: 0px;
-      }
+   div.Enfant2 {
+      background-color: #FFF;
+      margin: 0 3px;
+      padding: 20px 100px;
+   } 
 
+   /*
+   div.Financement {
+      margin: 0;
+      height: auto;
+      width: 100%;
+      position: relative;
+      top: 120px;
 
-      div.Enfant2 :nth-child(2){
-         background-color: red;
-         width: 100px;
-         height: 100px;
-         border: 1px solid black;
-         top: 40px;
-         left: 40px;
-      }
-
-      div.Enfant2 :nth-child(3){
-         background-color: red;
-         width: 100px;
-         height: 100px;
-         border: 1px solid black;
-         top: 0px;
-         left: 80px;
-      }
-
-      div.Enfant2 :nth-child(4){
-         background-color: red;
-         width: 100px;
-         height: 100px;
-         border: 1px solid black;
-         position: relative;
-         top: 0px;
-         left: 150px;
-         }
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+   }
+   */
 
 
+/*
+   div.Parent3 > h3 {
+      margin-bottom: 20px;
+      font-size: 1.6em;
+   }
+   */
 
 
+   div.Parent3 {
+      margin: 0;
+      height: auto;
+      width: 100%;
+      position: relative;
+      top: 120px;
 
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+   }
 
-
+   
+   div.Enfant3 {
+      background-color: #FFF;
+      margin: 0 100px;
+      padding: 20px 20px;
+   } 
