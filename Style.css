@@ -100,8 +100,32 @@
    }
    */
 
+   div.Financement {
+      margin: 0;
+      height: auto;
+      width: 100%;
+      position: relative;
+      top: 15px;
 
-   
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+     }
+     
+     div.Financement > h1 {
+      color: black;
+      
+      margin-bottom: 20px;
+      font-size: 3.0em;
+     }
+
+     div.Financement > p {
+      color: black;
+      margin-bottom: 20px;
+      font-size: 1.0em;
+   }
+
 
    div.Parent3 {
       margin: 0;
